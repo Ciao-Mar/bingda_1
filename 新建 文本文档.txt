@@ -1,0 +1,8 @@
+git init 初始化库
+git config --global user.name 用户名 设置用户名
+git config --global user.email 邮箱 设置邮箱
+git add . 添加全部上传文件 如果指定文件直接git add 文件名
+git commit -m "上传备注"
+git branch -M main 切换main分支
+git remote add origin git@github.com:Ciao-Mar/bingda.git 添加上传仓库
+git push -u origin main 上传 -u 正常上传 -f 覆盖上传
